@@ -12,17 +12,14 @@
 ## 4. v-if
 	: 조건문 
 
-	```
 	ex) <div v-if="value > 5"></div>
 
-	(js 지정)
 	var app = new Vue({
 		el: '#app',
 		data: {
 			value: 0
 		}
 	});
-	```
 
 ## 5. v-else
 	: 위의 조건문이 만족하지 않을 때.

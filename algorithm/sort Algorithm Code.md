@@ -50,4 +50,17 @@ function selectionSort(data) {
 ```
 
 # Quick Sort
-- Time Complexity : O(nlongn)
+- Time Complexity : O(nlogn)
+- 장점 : 가장 빠르다.
+- 단점 : 피벗 값이 계속 최대값이나 최소값으로 잡는 경우 최악의 성능O(n^2)을 가짐.
+
+# Merge Sort
+- Time Complexity : O(nlogn)
+- 장점 : 데이터 상태에 크게 영향받지 않음
+- 단점 : 데이터 크기만큼 메모리가 더 필요함
+
+# Heap Sort
+- Time Complexity : O(nlogn)
+- 장점 : 추가적인 메모리가 필요하지 않음. 항상 O(nlogn)의 성능을 유지
+- 단점 : Quick Sort보다 느림
+

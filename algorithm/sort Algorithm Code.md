@@ -54,6 +54,30 @@ function selectionSort(data) {
 - 장점 : 가장 빠르다.
 - 단점 : 피벗 값이 계속 최대값이나 최소값으로 잡는 경우 최악의 성능O(n^2)을 가짐.
 
+```
+function quickSort(data) {
+	if (data.length === 0)
+		return [];
+
+	var middle = data[0];
+	var len = data.length;
+
+	var left = [];
+	var right = [];
+
+	for (var i = 1; i < data.length; i++) {
+		if (arr[i] < middle)
+			left.push(data[i]);
+		else
+			right.push(data[i]);
+	}
+
+	return quickSort(left).concat(middle, quickSort(right));
+}
+
+```
+
+
 # Merge Sort
 - Time Complexity : O(nlogn)
 - 장점 : 데이터 상태에 크게 영향받지 않음

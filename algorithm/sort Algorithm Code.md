@@ -1,0 +1,53 @@
+# Bubble Sort
+- Time Complexity: O(n^2)
+
+```
+function bubbleSort(data) {
+	for (var i = 0; i < data.length; i++) {
+		for (var j = 0; j < data.length-1-i; j++) {
+			if (data[j] > data[j+1]) {
+				var temp = data[j+1];
+				data[j+1] = data[j];
+				data[j] = temp;
+			}
+		}
+	}
+}
+```
+
+# Insertion Sort
+- Time Complexity: O(n^2)
+
+```
+function insertionSort(data) {
+	for (var i = 1; i < data.length; i++) {
+		var temp = data[i];
+		for (var j = i-1; j >= 0 && temp < data[j]; j--) {
+			data[j+1] = data[j];
+		}
+		data[j+1] = temp;
+	}
+}
+```
+
+# Selection Sort
+- Time Complexity: O(n^2)
+
+```
+function selectionSort(data) {
+	for (var i = 0; i < data.length; i++) {
+		minIdx = i;
+		for (var j = i+1; j < data.length; j++) {
+			if (data[j] < data[minIdx]) {
+				minIdx = j;
+			}
+		}
+		var temp = data[minIdx];
+		data[minIdx] = data[i];
+		data[i] = temp;
+	}
+}
+```
+
+# Quick Sort
+- Time Complexity : O(nlongn)

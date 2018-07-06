@@ -96,3 +96,5 @@ console.log(getNestedValueDeclarativelyl({bar: {bar: 1}}, 'bar.baz') === 1);
   
 지금까지 자바스크립트 코드를 살펴본 것처럼, React도 마찬가지로 UI를 구성할 때 선언형 스타일로 작성한다. 
 개발자가 UI요소를 선언형 스타일로 작성한 후, 뷰에 변경이 발생하는 경우 React가 알아서 갱신한다.
+
+[출처: 리액트교과서 (아자트마르단 지음/ 곽현철 옮김)]

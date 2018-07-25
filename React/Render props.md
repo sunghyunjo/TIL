@@ -42,11 +42,11 @@ class MouseTracker extends React.Component {
   }
 }
 ```
-스크린 주위로 마우스 커서를 움직이면, component가 마우스(x, y)좌표를 <p>에 나타내는 코드이다.
+스크린 주위로 마우스 커서를 움직이면, component가 마우스(x, y)좌표를 `<p>`에 나타내는 코드이다.
   
 #### 그런데, 여기서 다른 component가 이 행위를 다시 사용하려면 어떻게 해야할까? 즉, 다른 component에서 커서 위치를 알아야 할 경우, 해당 행위를 공유하기 쉽게 캡슐화 할 수 있는가?
   
-위에서 동작하는 마우스 커서 위치를 받아오는 기능을 <Mouse>컴포넌트로 캡슐화하여 어디서든 사용할 수 있도록 리팩토링을 해보면 아래와 같다.
+위에서 동작하는 마우스 커서 위치를 받아오는 기능을 `<Mouse>`컴포넌트로 캡슐화하여 어디서든 사용할 수 있도록 리팩토링을 해보면 아래와 같다.
   
 ```
 // The <Mouse> component encapsulates the behavior we need...
@@ -90,11 +90,11 @@ class MouseTracker extends React.Component {
 이제 <Mouse> 컴포넌트는 mouse event를 감지하고 마우스 커서의 위치를 저장하는 동작을 캡슐화했다.
 그러나 아직 완벽히 재사용할 수 있는 형태는 아니다.
   
-예를 들어, 마우스 주위에 고양이 그림을 보여주는 <Cat>컴포넌트가 있다고 생각해보자.
-우리는 <Cat mouse={{x, y}}> prop을 통해 Cat 컴포넌트에게 마우스 좌표를 전달해주고, 화면의 한 위치에 이미지를 보여줄지 알려주고자 한다.
+예를 들어, 마우스 주위에 고양이 그림을 보여주는 `<Cat>`컴포넌트가 있다고 생각해보자.
+우리는 `<Cat mouse={{x, y}}>` prop을 통해 Cat 컴포넌트에게 마우스 좌표를 전달해주고, 화면의 한 위치에 이미지를 보여줄지 알려주고자 한다.
   
 ### 첫번째 방법
-- <Mouse> component의 render method안에 <Cat> component를 넣어 랜더링한다.
+- `<Mouse>` component의 render method안에 `<Cat>` component를 넣어 랜더링한다.
 ```
 class Cat extends React.Component {
   render() {
@@ -148,12 +148,12 @@ class MouseTracker extends React.Component {
 ```
 
 이런 방법은 특정 상황에서는 적용할 수 있지만, 마우스 트랙킹만 캡슐화하지는 못했다.
-쉽게 말하자면, <Dog> component에서 마우스 좌표를 받고자 한다면 또다시 <MouseWithDog>라는 컴포넌트를 만들어야 할 것이다.
+쉽게 말하자면, `<Dog>` component에서 마우스 좌표를 받고자 한다면 또다시 `<MouseWithDog>`라는 컴포넌트를 만들어야 할 것이다.
   
 
 ### 두번째 방법
 - **render prop**을 사용하는 방법 
-  - <Mouse> component 안에 <Cat> component를 hard-coding해서 결과물을 바꾸는 것이 아닌, <Mouse>에게 동적으로 rendering을 할 수 있도록 해주는 함수형 prop을 제공 할 수 있다.
+  - `<Mouse>` component 안에 `<Cat>` component를 hard-coding해서 결과물을 바꾸는 것이 아닌, `<Mouse>`에게 동적으로 rendering을 할 수 있도록 해주는 함수형 prop을 제공 할 수 있다.
   **=> 이것이 render props의 개념이다!**
   
 ```
@@ -208,7 +208,7 @@ class MouseTracker extends React.Component {
 }
 ```
   
-위의 코드 중, MouseTracker코드를 자세히 보면 <Mouse> component의 행위를 복제하기 위해 하드코딩할 필요 없이, render함수에 prop으로 전달해주고 있다. 이로써 <Mouse> component는 동적으로 트래킹 기능을 가진 component들을 랜더링 할 수 있다.
+위의 코드 중, MouseTracker코드를 자세히 보면 `<Mouse>` component의 행위를 복제하기 위해 하드코딩할 필요 없이, render함수에 prop으로 전달해주고 있다. 이로써 `<Mouse>` component는 동적으로 트래킹 기능을 가진 component들을 랜더링 할 수 있다.
   
 ### 즉, render prop은 무엇을 render할지 component에게 알려주는 함수이다.
 

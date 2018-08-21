@@ -13,7 +13,7 @@
 - 야욕이 없던 성현이는 그 간의 평가를 바탕으로 다혜를 황제로 추대한다.
 => 즉, 다혜의 행동 하나 하나로 성현이에게 점수를 따는 과정을 코드로 만들어 보자.
 
-```
+```javascript
 var Dahye = (function() {
   function Dahye() {
     this.subscribers = [];

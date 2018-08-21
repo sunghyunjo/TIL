@@ -21,7 +21,7 @@ React는 명령형 스타일이 아닌, 선언형 스타일을 채택했다. 선
 선언형 스타일은 복잡도를 줄여줄 뿐만 아니라 코드에 대한 이해도와 가독성을 높여주기 때문이다. 
 두 가지 방식의 차이를 알 수 있는 간단한 코드를 살펴보자.
 
-```
+```js
 // 명령형
 var arr = [1, 2, 3, 4, 5];
 var arr2 = [];
@@ -32,7 +32,7 @@ for (var i = 0; i < arr.length; i++) {
 
 console.log('a', arr2);
 ```
-```
+```js
 // 선언형
 var arr = [1, 2, 3, 4, 5];
 var arr2 = arr.map(function(v, i) {
@@ -50,7 +50,7 @@ console.log('b', arr2);
   
 아래의 두 예제는 각각 명령형과 선언형으로 쓰여진 중첩된 객체 내부의 갑을 가져오는 함수를 사용하는 예이다.
   
-```
+```js
 var profile = {account: '475'};
 var profileDeep = {account: {number: 475}}};
 console.log(getNestedValueImperatively(profile, 'account') === '475');
@@ -59,7 +59,7 @@ console.log(getNestedValueImperatively(profileDeep, 'account.number' === 475);
 
 기본적인 선언은 위와 같이 된 형태에서 해당 함수들을 명령형과 선언형이 어떻게 구현했는지 살펴보자.
 
-```
+```js
 // 명령형 스타일
 var getNestedValueImperatively = function (object, propertyName) {
   var currentObject = object;
@@ -78,7 +78,7 @@ var getNestedValueImperatively = function (object, propertyName) {
 }
 ```
 
-```
+```js
 // 선언형 스타일
 var getValue = function getValue(object, propertyName) {
   return typeof object === 'undefined' ? undefined : object[propertyName]

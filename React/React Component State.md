@@ -15,7 +15,7 @@ React 개발자는 상태 객체를 이용해서 새로운 UI를 생성한다.
 이것들을 현재 컴포넌트 내부에서 변경하더라도 뷰를 자동으로 변경할 수 없기 때문이다.
   
 예를 들어, 다음 예제는 상태 외의 다른 값을 변경해도 뷰를 갱신할 수 없는 안티패턴이다.
-```
+```js
 let inputValue = 'Texas';
 class Autocomplete extends React.Component {
   updateValues() {
@@ -40,7 +40,7 @@ class Autocomplete extends React.Component {
 그럼 어떻게 상태 객체를 다뤄야할까?
 시계 컴포넌트를 만든다고 예를 들어보자.
 
-```
+```js
 class Clock extends React.Component {
   render() {
     return <div>{this.state.currentTime}</div>
@@ -62,7 +62,7 @@ setState -> render -> setState... 로 끊임없이 반복되기 때문에 React�
 초기 상태를 설정하려면 React.Component를 사용하는 ES6 클래스의 생성자(constructor)에서 this.state를 선언한다.
 반드시 `super()`에 속성을 전달해서 실행해야 한다. 
 
-```
+```js
 class MyFancyComponent extends React.Component {
   constructor(props) {
     super(props);

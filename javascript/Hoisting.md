@@ -3,7 +3,7 @@
 자바스크립트에는 호이스팅이란 개념이 중요하게 여겨지고 있는데, 이는 간단하게 말하면 **변수 선언문을 끌어올린다는 뜻**으로 이해하면 된다.
   
 아래 코드를 통해 이해해보자.
-```
+```js
 function foo() {
 	console.log(val);
 	var val = 10;
@@ -21,7 +21,7 @@ undefined
 한 번은 변수 선언문 전에, 또 한번은 변수가 선언된 이후에 호출이 되는데, 다른 프로그래밍 언어는 선언문 전에 호출이 됐다면 Error가 발생하게 된다. 
 하지만, javascript는 val이 호이스팅되며 아래의 코드와 같은 맥락으로 구동된다.
 
-```
+```js
 function foo() {
 	var val;
 	console.log(val);
@@ -36,7 +36,7 @@ foo();
 
 #### 두번째 예제를 살펴보자.
 
-```
+```js
 var val = 30;
 function foo() {
 	console.log(val);
@@ -55,7 +55,7 @@ undefined
 다른 프로그래밍 언어에 익숙한 개발자들은 변수 value의 첫 호출에서 전역변수가 참조된다고 생각할 수 있다. 하지만, javascript의 호이스팅으로 인해 선언부가 foo함수의 가장 최상단으로 끌어올려지고, 이로써 전역변수val이 아닌, 지역변수 val을 참조하게 된다.
 
 ### 기억해야 할 것! 함수 선언문(function declaration)방식만 호이스팅이 가능하다.
-```
+```js
 // 함수 선언문
 foo();
 
@@ -70,7 +70,7 @@ function foo() {
 */
 ```
 
-```
+```js
 // 함수 표현식
 foo();
 
@@ -85,7 +85,7 @@ foo of object is not a function
 */
 ```
 
-```
+```js
 // function 생성자
 foo();
 

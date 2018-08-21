@@ -7,7 +7,7 @@
 ### IIFE(Immediately-Invoked-Function-Expressions) 형태
 모듈은 변수와 메소드를 보호하는 클로저(*함수 대신 객체를 반환해야 한다)처럼 private범위를 허용하는 IIFE어야 한다.
 
-```
+```js
 (function() {
   // private 변수들과 함수들을 선언
   
@@ -20,7 +20,7 @@
   
 좀 더 자세한 예제를 들어보자.
 
-```
+```js
 var module = (function() {
   var counter = 0;
   

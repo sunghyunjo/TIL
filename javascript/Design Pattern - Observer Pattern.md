@@ -65,7 +65,7 @@ var Sunghyun = (function() {
 })();
 ```
 
-```
+```javascript
 var dahye = new Dahye();
 var sunghyun = new Sunghyun();
 

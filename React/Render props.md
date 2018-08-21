@@ -5,7 +5,7 @@
 즉, 다시 쉽게 말하자면 **Render Props패턴은 함수로 이루어진 props를 이용하여 컴포넌트 간 코드를 공유하는 방법**이다.
   
 다음은 render prop 사용법에 대한 간단한 예제이다.
-```
+```js
 <DataProvider render = {data => (
   <h1>Hello {data.target}</h1>
 )}/>
@@ -17,7 +17,7 @@ render element요소를 반환하고 이를 호출하는 함수를 사용합니�
 Component는 React에서 코드의 재사용성을 위한 주요 단위이다. 하지만 한 컴포넌트의 상태나 동작을 다른 컴포넌트와 공유하는 방법이 쉽지는 않았다.
    
 예를 들면, 아래 component는 웹 어플리케이션에서 마우스 위치를 추적하는 로직을 가지고 있다.
-```
+```js
 class MouseTracker extends React.Component {
   constructor(props) {
     super(props);
@@ -48,7 +48,7 @@ class MouseTracker extends React.Component {
   
 위에서 동작하는 마우스 커서 위치를 받아오는 기능을 `<Mouse>`컴포넌트로 캡슐화하여 어디서든 사용할 수 있도록 리팩토링을 해보면 아래와 같다.
   
-```
+```js
 // The <Mouse> component encapsulates the behavior we need...
 class Mouse extends React.Component {
   constructor(props) {
@@ -95,7 +95,7 @@ class MouseTracker extends React.Component {
   
 ### 첫번째 방법
 - `<Mouse>` component의 render method안에 `<Cat>` component를 넣어 랜더링한다.
-```
+```js
 class Cat extends React.Component {
   render() {
     const mouse = this.props.mouse;
@@ -156,7 +156,7 @@ class MouseTracker extends React.Component {
   - `<Mouse>` component 안에 `<Cat>` component를 hard-coding해서 결과물을 바꾸는 것이 아닌, `<Mouse>`에게 동적으로 rendering을 할 수 있도록 해주는 함수형 prop을 제공 할 수 있다.
   **=> 이것이 render props의 개념이다!**
   
-```
+```js
 class Cat extends React.Component {
   render() {
     const mouse = this.props.mouse;

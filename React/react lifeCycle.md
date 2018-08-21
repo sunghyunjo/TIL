@@ -12,7 +12,7 @@
 컴포넌트가 브라우저에 나타나기 전, 후에 호출되는 API
 
 ### constructor
-```
+```js
 constructor(props) {
   super(props);
 }
@@ -21,7 +21,7 @@ constructor(props) {
 - 컴포넌트가 새로 만들어질 때마다, 이 함수가 호출된다.
 
 ### componentWillMount
-```
+```js
 componentWillMount() {
 }
 ```
@@ -31,7 +31,7 @@ componentWillMount() {
 - 이 API에서 하던 일들은 거의 constructor와 componentDidMount에서 충분히 처리할 수 있다.
 
 ### componentDidMount
-```
+```js
 componentDidMount() {
   // 외부 라이브러리 연동 : D3, masonry, etc
   // 컴포넌트에서 필요한 데이터 요청 : Ajax, GraphQL, etc.
@@ -51,7 +51,7 @@ componentDidMount() {
 업데이트가 되기 전과 그리고 된 후에 어떠한 API가 호출 되는지 살펴보자.
 
 ### componentWillReceiveProps
-```
+```js
 componentWillReceiveProps(nextProps) {
   // this.props는 아직 바뀌지 않은 상태
 }
@@ -66,7 +66,7 @@ componentWillReceiveProps(nextProps) {
 ### static getDerivedStateFromProps() 
 v16.3이후에 만들어진 라이프사이클 API
 - props로 받아온 값을 state로 동기화하는 작업을 해줘야하는 경우 사용된다.
-```
+```js
 static getDerivedStateFromProps(nextProps, prevState) {
   // 여기서는 setState를 하는 것ㄱ이 아니라,
   // 특정 props가 바뀔 때 설정하고 설정하고 싶은 state값을 리턴하는 형태로 사용된다.

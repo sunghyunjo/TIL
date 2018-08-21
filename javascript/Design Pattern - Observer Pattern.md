@@ -81,6 +81,10 @@ sunghyun.list; // [{ target: Dahye, point: 1 }]
 그 전달 방식이 `fire()`이다. `fire()`부분은 콜백이라고 보면 된다.
 성현이가 다혜를 관찰하고 있다가, 다혜가 특정 행동을 하기 때문에 자동으로 성현이에게 그 소식이 전달되는 것이다.
 
+
+### 단점
+- observer 수가 증가함에 따라 성능이 크게 저하된다.
+
 [참고자료](https://www.zerocho.com/category/JavaScript/post/5800b4831dfb250015c38db5)
 
 

@@ -32,6 +32,7 @@
 - [component vs pure component](https://github.com/sunghyunjo/TIL/blob/master/React/component%20vs%20pure%20component.md)
 - [life cycle](https://github.com/sunghyunjo/TIL/blob/master/React/react%20lifeCycle.md)
 - [react feature](https://github.com/sunghyunjo/TIL/blob/master/React/react%EC%9E%A5%EC%A0%90.md)
+- [Redux](https://github.com/sunghyunjo/TIL/blob/master/React/Redux.md)
 
 ### [Web](https://github.com/sunghyunjo/TIL/tree/master/web)
 - [CORS](https://github.com/sunghyunjo/TIL/blob/master/web/CORS.md)

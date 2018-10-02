@@ -37,6 +37,7 @@
 - [life cycle](https://github.com/sunghyunjo/TIL/blob/master/React/react%20lifeCycle.md)
 - [react feature](https://github.com/sunghyunjo/TIL/blob/master/React/react%EC%9E%A5%EC%A0%90.md)
 - [Redux](https://github.com/sunghyunjo/TIL/blob/master/React/Redux.md)
+- [Flux Architecture](https://github.com/sunghyunjo/TIL/blob/master/React/Flux%20architecture.md)
 
 ### [Web](https://github.com/sunghyunjo/TIL/tree/master/web)
 - [CORS](https://github.com/sunghyunjo/TIL/blob/master/web/CORS.md)

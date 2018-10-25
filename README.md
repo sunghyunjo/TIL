@@ -64,6 +64,7 @@
 - [Http vs Https](https://github.com/sunghyunjo/TIL/blob/master/network/http%EC%99%80%20https%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [Proxy](https://github.com/sunghyunjo/TIL/blob/master/network/proxy.md)
 - [HTTP header](https://github.com/sunghyunjo/TIL/blob/master/network/HTTP%20header.md)
+- [HTTP Status code](https://github.com/sunghyunjo/TIL/blob/master/network/HTTP%20Status%20code.md)
 
 ### [OS](https://github.com/sunghyunjo/TIL/tree/master/os)
 - [DeadLock](https://github.com/sunghyunjo/TIL/blob/master/os/deadlock.md)

@@ -1,8 +1,6 @@
 # JavaScript의 Prototype이해하기
 
 
------
-
 JavaScript는 프로토타입 기반 언어라고 불린다. JavaScript개발을 하면 빠질 수 없는 것이 프로토타입이라고 할 수 있을 정도로 중요한 개념이라고 할 수 있다. 
 <br></br>
 
@@ -14,7 +12,7 @@ JavaScript는 프로토타입 기반 언어라고 불린다. JavaScript개발을
 JavaScript에는 클래스가 없기 때문에 기본적으로 상속기능이 존재하지 않는다. 그래서 Prototype을 기반으로 상속을 흉내내도록 구현해 사용하게 된다. 해당 객체를 복사 또는 필요에 따라 하나하나 특성들을 확장해 나가는 방식으로써 Prototype을 이용하는 것이다.
 <br></br>
 ### Prototype의 개념적인 비유
-```
+```js
 //프로그래머라는 존재가 있다.
 var Programmer = function(){};
 
@@ -63,7 +61,7 @@ Hyunwoo.computer();
 대충 어떤 방식인지 이해가 갈 것이라고 생각한다. 또 다른 예제로 이해를 돕도록 하자.
 <br>
 아래의 예제는 JavaScript에는 Class는 없지만, 함수(function)와 new를 통해 클래스를 흉내내본 것이다.
-```
+```js
 function Person(){
 	this.eyes = 2;
 	this.nose = 1;
@@ -99,7 +97,7 @@ console.log(kim.eyes); // => 2
 Prototype에 대해 깊게 알아보기 전에, 먼저 Prototype Object가 생성되는 구조에 대해서 알아보자.
 구조를 설명하기 위한 예제로는 맨 위에 작성한 '프로그래머의 컴퓨터 예제'를 사용하였다.
 
-```
+```js
 function Programmer(){};
 console.dir(Programmer);
 ```
@@ -114,11 +112,11 @@ console.dir(Programmer);
 <br>
 
 Object 객체에도 prototype의 개념은 역시나 적용되어있다. 우리가 일반적으로 많이 쓰는 일반적인 객체 생성에서 이를 찾아볼 수 있다.
-```
+```js
 var obj = {};
 ```
 얼핏보면 이는 함수랑 전혀 상관없는 코드로 보이지만, 위 코드는 사실 다음 코드와 같다.
-```
+```js
 var obj = new Object();
 ```
 위 코드에서 Object가 JavaScript에서 기본적으로 제공하는 함수다.
@@ -127,7 +125,9 @@ Object와 마찬가지로 Function, Array도 모두 함수로 정의되어 있�
 
 <br>
 </br>
+
 ### Prototype Link & Prototype Chain
+
 다시 맨 처음의 Programmer예제를 보자. Hyunwoo와 Sunghyun에게는 computer라는 속성이 없음에도 Hyunwoo.computer();를 실행하면 "I have a Macbook"이라는 값을 참조하는 것을 볼 수 있습니다. 위에서 설명했듯이 Prototype Object(=Programmer prototype)에 존재하는 computer속성을 참조한 것이다. 과연 이게 어떻게 가능한걸까?
 
 바로 Hyunwoo나 Sunghyun이 가지고 있는` __proto__`가 그것을 가능하게 해주는 열쇠이다.

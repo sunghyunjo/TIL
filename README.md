@@ -5,6 +5,7 @@
 - [Hoisting](https://github.com/sunghyunjo/TIL/blob/master/javascript/Hoisting.md)
 - [Design Pattern - Module Pattern](https://github.com/sunghyunjo/TIL/blob/master/javascript/Design%20Pattern%20-%20Module%20Pattern.md)
 - [Design Pattern - Observer Pattern](https://github.com/sunghyunjo/TIL/blob/master/javascript/Design%20Pattern%20-%20Observer%20Pattern.md)
+- [Design Pattern - Singleton Pattern](https://github.com/sunghyunjo/TIL/blob/master/javascript/Design%20Pattern%20-%20Singleton%20Patttern.md)
 - [ES6 Spread operator](https://github.com/sunghyunjo/TIL/blob/master/javascript/ES6%20Spread%20operator.md)
 - [JavaScript Good things](https://github.com/sunghyunjo/TIL/blob/master/javascript/JavaScript%20%EC%A2%8B%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
 - [prototype](https://github.com/sunghyunjo/TIL/blob/master/javascript/JavaScript%EC%9D%98%20Prototype.md)

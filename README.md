@@ -58,6 +58,7 @@
 - [Local Storage vs Session Storage vs Cookie](https://github.com/sunghyunjo/TIL/blob/master/web/localStorage%2C%20sessionStorage%2C%20Cookie.md)
 - [URI & URL & URN](https://github.com/sunghyunjo/TIL/blob/master/web/URI%20%26%20URL%20%26%20URN.md)
 - [SVG vs Canvas](https://github.com/sunghyunjo/TIL/blob/master/web/SVG%20vs%20Canvas.md)
+- [Rendering Optimize](https://github.com/sunghyunjo/TIL/blob/master/web/Rendering%20Optimize.md)
 
 ## Computer Science
 ### [Network](https://github.com/sunghyunjo/TIL/tree/master/network)

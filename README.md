@@ -60,6 +60,8 @@
 - [SVG vs Canvas](https://github.com/sunghyunjo/TIL/blob/master/web/SVG%20vs%20Canvas.md)
 - [Rendering Optimize](https://github.com/sunghyunjo/TIL/blob/master/web/Rendering%20Optimize.md)
 
+### [TypeScript](https://github.com/sunghyunjo/TIL/tree/master/TypeScript)
+
 ## Computer Science
 ### [Network](https://github.com/sunghyunjo/TIL/tree/master/network)
 - [ARQ](https://github.com/sunghyunjo/TIL/blob/master/network/ARQ.md)

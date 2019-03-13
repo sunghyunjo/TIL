@@ -59,6 +59,7 @@
 - [URI & URL & URN](https://github.com/sunghyunjo/TIL/blob/master/web/URI%20%26%20URL%20%26%20URN.md)
 - [SVG vs Canvas](https://github.com/sunghyunjo/TIL/blob/master/web/SVG%20vs%20Canvas.md)
 - [Rendering Optimize](https://github.com/sunghyunjo/TIL/blob/master/web/Rendering%20Optimize.md)
+- [Lazy Loading](https://github.com/sunghyunjo/TIL/blob/master/web/Lazy%20Loading.md)
 
 ### [TypeScript](https://github.com/sunghyunjo/TIL/tree/master/TypeScript)
 

@@ -15,7 +15,7 @@
 ## 3. 상속성(Inheritance)
 - Class의 변수와 Method를 물려받아 Class를 정의하는 방법을 상속이라 부른다.
 - 상위개념의 특징을 하위 개념이 물려받는 것을 말한다.
-- 자식 Class는 물려받은 method를 재정의 할 수 있는데 이러한 기능을 overwriting이라고 부른다.
+- 자식 Class는 물려받은 method를 재정의 할 수 있는데 이러한 기능을 overriding이라고 부른다.
 
 ## 4. 다형성(Polymorphism)
 Class의 같은 Method를 호출해도 각기 다른 method가 호출되는 특징을 다형성의 특징이라 부른다.

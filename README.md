@@ -45,6 +45,9 @@
 - [HOC](https://github.com/sunghyunjo/TIL/blob/master/React/HOC.md)
 - [React Hooks](https://github.com/sunghyunjo/TIL/blob/master/React/React%20Hooks.md)
 
+### [Angular](https://github.com/sunghyunjo/TIL/tree/master/Angular)
+ - [Basic](https://github.com/sunghyunjo/TIL/blob/master/Angular/Basic.md)
+
 ### [Web](https://github.com/sunghyunjo/TIL/tree/master/web)
 - [CORS](https://github.com/sunghyunjo/TIL/blob/master/web/CORS.md)
 - [DOM](https://github.com/sunghyunjo/TIL/blob/master/web/DOM.md)

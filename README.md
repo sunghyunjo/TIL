@@ -47,6 +47,12 @@
 
 ### [Angular](https://github.com/sunghyunjo/TIL/tree/master/Angular)
  - [Basic](https://github.com/sunghyunjo/TIL/blob/master/Angular/Basic.md)
+ - [HostListner](https://github.com/sunghyunjo/TIL/blob/master/Angular/HostListner.md)
+ - [LifeCycle](https://github.com/sunghyunjo/TIL/blob/master/Angular/LifeCycle.md)
+ - [NgModule](https://github.com/sunghyunjo/TIL/blob/master/Angular/NgModule.md)
+ - [Observable](https://github.com/sunghyunjo/TIL/blob/master/Angular/Observable.md)
+ - [ViewChild](https://github.com/sunghyunjo/TIL/blob/master/Angular/ViewChild.md)
+ - [unsubscribe](https://github.com/sunghyunjo/TIL/blob/master/Angular/unsubscribe.md)
 
 ### [Web](https://github.com/sunghyunjo/TIL/tree/master/web)
 - [CORS](https://github.com/sunghyunjo/TIL/blob/master/web/CORS.md)

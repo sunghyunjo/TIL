@@ -53,6 +53,7 @@
  - [Observable](https://github.com/sunghyunjo/TIL/blob/master/Angular/Observable.md)
  - [ViewChild](https://github.com/sunghyunjo/TIL/blob/master/Angular/ViewChild.md)
  - [unsubscribe](https://github.com/sunghyunjo/TIL/blob/master/Angular/unsubscribe.md)
+ - [Split Module with Lazyloading](https://github.com/sunghyunjo/TIL/blob/master/Angular/Split%20Module%20with%20Lazy%20loading.md)
 
 ### [Web](https://github.com/sunghyunjo/TIL/tree/master/web)
 - [CORS](https://github.com/sunghyunjo/TIL/blob/master/web/CORS.md)

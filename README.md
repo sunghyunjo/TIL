@@ -75,7 +75,7 @@
 ### [Node](https://github.com/sunghyunjo/TIL/blob/master/Node)
 - [express-session](https://github.com/sunghyunjo/TIL/blob/master/Node/Express%20Session.md)
 ### [TypeScript](https://github.com/sunghyunjo/TIL/tree/master/TypeScript)
-
+ - [interface](https://github.com/sunghyunjo/TIL/blob/master/TypeScript/Interface.md)
 ## Computer Science
 ### [Network](https://github.com/sunghyunjo/TIL/tree/master/network)
 - [ARQ](https://github.com/sunghyunjo/TIL/blob/master/network/ARQ.md)
@@ -108,7 +108,12 @@
 - [Architecture Style](https://github.com/sunghyunjo/TIL/blob/master/OOP/Architecture-Style.md)
 - [OOP life cycle](https://github.com/sunghyunjo/TIL/blob/master/OOP/oop%20lifeCycle.md)
 - [OOP feature](https://github.com/sunghyunjo/TIL/blob/master/OOP/oop%EC%9D%98%204%EA%B0%80%EC%A7%80%ED%8A%B9%EC%A7%95.md)
-  
+
+### [DB](https://github.com/sunghyunjo/TIL/tree/master/db)
+ - [How to get id value](https://github.com/sunghyunjo/TIL/blob/master/db/how%20to%20get%20id%20value.md)
+ - [Multiple Query](https://github.com/sunghyunjo/TIL/blob/master/db/multiple%20query.md)
+ - [nchar, nvarchar, char, varchar](https://github.com/sunghyunjo/TIL/blob/master/db/nchar%2C%20nvarchar%2C%20char%2C%20varchar.md)
+ 
 ## [ETC](https://github.com/sunghyunjo/TIL/tree/master/etc)
 - [Version Control](https://github.com/sunghyunjo/TIL/blob/master/etc/Version%20Control.md)
 - [Jira](https://github.com/sunghyunjo/TIL/blob/master/etc/Jira.md)

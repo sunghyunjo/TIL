@@ -6,7 +6,7 @@
 
 ## 인증 방식
 
-!(ssh인증 방식)[[https://swalloow.github.io/assets/images/ssh-key-auth-flow.png](https://swalloow.github.io/assets/images/ssh-key-auth-flow.png)]
+ ![ssh인증 방식](https://swalloow.github.io/assets/images/ssh-key-auth-flow.png)
 
 Public key와 Private Key를 사용하는 비대칭 암호방식 사용.
 

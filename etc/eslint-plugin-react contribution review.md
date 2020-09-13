@@ -1,11 +1,11 @@
 > 2020 오픈소스 컨트리뷰톤에 참여하며 eslint-plugin-react에 기여하였고, 해당 경험에 대한 후기를 간략하게 작성한 글입니다.
 
 ### 목차
-- [이슈 선정 과정](https://github.com/sunghyunjo/TIL/new/master/etc#%EC%9D%B4%EC%8A%88-%EC%84%A0%EC%A0%95-%EA%B3%BC%EC%A0%95)
-- [선정한 이슈 내용](https://github.com/sunghyunjo/TIL/new/master/etc#%EC%84%A0%EC%A0%95%ED%95%9C-%EC%9D%B4%EC%8A%88-%EB%82%B4%EC%9A%A9)
-- [해결 방법 도출 과정](https://github.com/sunghyunjo/TIL/new/master/etc#%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%EB%8F%84%EC%B6%9C-%EA%B3%BC%EC%A0%95)
-- [어려웠던 점](https://github.com/sunghyunjo/TIL/new/master/etc#%EC%96%B4%EB%A0%A4%EC%9B%A0%EB%8D%98-%EC%A0%90)
-- [소감](https://github.com/sunghyunjo/TIL/new/master/etc#%EC%86%8C%EA%B0%90)
+- [이슈 선정 과정](https://github.com/sunghyunjo/TIL/blob/master/etc/eslint-plugin-react%20contribution%20review.md#%EC%9D%B4%EC%8A%88-%EC%84%A0%EC%A0%95-%EA%B3%BC%EC%A0%95)
+- [선정한 이슈 내용](https://github.com/sunghyunjo/TIL/blob/master/etc/eslint-plugin-react%20contribution%20review.md#%EC%84%A0%EC%A0%95%ED%95%9C-%EC%9D%B4%EC%8A%88-%EB%82%B4%EC%9A%A9)
+- [해결 방법 도출 과정](https://github.com/sunghyunjo/TIL/blob/master/etc/eslint-plugin-react%20contribution%20review.md#%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%EB%8F%84%EC%B6%9C-%EA%B3%BC%EC%A0%95)
+- [어려웠던 점](https://github.com/sunghyunjo/TIL/blob/master/etc/eslint-plugin-react%20contribution%20review.md#%EC%96%B4%EB%A0%A4%EC%9B%A0%EB%8D%98-%EC%A0%90)
+- [소감](https://github.com/sunghyunjo/TIL/blob/master/etc/eslint-plugin-react%20contribution%20review.md#%EC%86%8C%EA%B0%90)
 
 ---
 
